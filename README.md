@@ -43,7 +43,7 @@
 
 - Private key đã được mã hóa : </br>
    ```openssl req -x509 -days 18250 -newkey rsa:8912 -keyout private_key.pem -out certificate.pem```
-- Với viêc mã hóa hiện tại sử dụng private key :
+- Với viêc mã hóa hiện tại sử dụng private key :</br>
    ```openssl req -x509 -new -days 100000 -key private_key.pem -out certificate.pem ```
 
 # 4. Encrypt a file
